@@ -50,3 +50,21 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Folders
+.git
+.vs
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+
+# Nuget Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
